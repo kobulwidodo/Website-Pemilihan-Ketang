@@ -1,0 +1,429 @@
+body {
+    background-color: #201F1F;
+    font-family: 'Poppins', sans-serif;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.ti-2020 {
+    font-style: normal;
+    font-weight: bold;
+    color: #DDDFE3;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: 300ms;
+}
+
+footer .ini-aneh {
+    color: pink;
+}
+
+.ti-2020:hover {
+    text-shadow: 2px 4px 3px rgba(92, 92, 92, 0.5);
+}
+
+.alert-login {
+    margin-top: 60px;
+    background: #DEAAFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 481px;
+    color: #C8E7FF;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    padding: 18px 29px;
+}
+
+.after-login-grup {
+    margin-top: 50px;
+}
+
+.after-login-pilihan {
+    background: #161616;
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 309px;
+    /* padding: 40px 64px; */
+}
+
+.text-after-login {
+    margin-top: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.svg-pilihan1 {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 88px;
+}
+
+.svg-pilihan2 {
+    display: block;
+    margin: auto;
+    margin-top: 51px;
+    margin-bottom: 88px;
+}
+
+.text-alert-login {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.card-login {
+    margin-top: 50px;
+    background-color: #161616;;
+    width: 700px;
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.selamat-datang {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #DDDFE3;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 55px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: 300ms;
+}
+
+.selamat-datang:hover {
+    text-shadow: 2px 4px 3px rgba(78, 78, 78, 0.5);
+}
+
+.inputan {
+    height: 60px;
+    color: white;
+    background: #383838;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 1px solid #383838 !important;
+}
+
+.inputan::placeholder{
+    color: #DDDFE3;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button-login {
+    margin-bottom: 44px;
+    margin-top: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 258px;
+    height: 57px;
+    color: #DDDFE3;
+    background: #383838;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.button-login:hover {
+    background: #c788ee;
+    color: #dbeaf5;
+}
+
+.btn-kembali-voting {
+    margin-top: 55px;
+    width: 177.15px;
+    height: 49px;
+    background: #383838;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-grup {
+    margin-top: 56px;
+}
+
+.button-footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #DDDFE3;
+    background: #383838;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 289.68px;
+}
+
+.button-footer:hover {
+    color: #f3e0ff;
+    background: black;
+}
+
+.header-title {
+    margin-top: 80px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.count-grup {
+    margin-top: 90px;
+}
+
+.card-count {
+    background: #161616;
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 410px;
+}
+
+.nama-calon {
+    padding-top: 21px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.foto-calon {
+    margin-top: 20px;
+    width: 125px;
+}
+
+.suara-text {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #DADADA;
+}
+
+.suara-grup {
+    margin-top: 8px;
+    background: #383838;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 135px;
+}
+
+footer {
+    color: pink;
+}
+
+.suara {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #C8E7FF;
+}
+
+.nama-user {
+    margin-top: 55px;
+    color: #DEAAFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 0.5px black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card-pilih {
+    background: #161616;
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.btn-pilih {
+    margin-bottom: 38px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 35px;
+    width: 134.94px;
+    height: 31.09px;
+    background: #383838;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.quote {
+    margin-top: 70px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #C8E7FF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-besar {
+    margin-top: 50px;
+    background: #383838;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 235px;
+    height: 65px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.footer-cr {
+    margin-top: 80px;
+}
+
+.visimisi-nama{
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #DDDFE3;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.visimisi-foto{
+    margin-top: 50px;
+    height: 225px;
+}
+
+.visi {
+    margin-top: 50px;
+    background: #161616;
+    border-radius: 15px;
+    width: 451px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.visi-head{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #DDDFE3;
+}
+
+.visi-body {
+    margin-top: 37px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #DDDFE3;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+
+.terimakasih {
+    margin-top: 137px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #DDDFE3;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pilihan {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 67px;
+    text-align: center;
+    color: #DEAAFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.saran-text {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #DDDFE3;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-visimisi{
+    margin-top: 47px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .form-login {
+        margin-right: 97px;
+        margin-left: 97px;
+    }
+    .btn-atas {
+        display: flex !important;
+        position: relative !important;
+        justify-content: flex-end !important;
+    }
+    .btn-bawah {
+        display: flex !important;
+        position: relative !important;
+        justify-content: flex-start !important;
+    }
+    .container-count {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
